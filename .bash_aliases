@@ -1,3 +1,5 @@
+alias pbcopy='xclip -selection c'
+alias pbpaste='xclip -selection clipboard -o'
 alias dottrack='git ls-tree -r master --name-only'
 alias ipython='/usr/bin/ipython'
 alias pyserv='python3 -m http.server'
