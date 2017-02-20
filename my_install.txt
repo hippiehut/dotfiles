@@ -1,0 +1,25 @@
+useradd <new_user>
+passwd <new_user>
+sudo adduser <new_user> sudo
+
+
+sudo apt-get install openssh-client vim tmux zsh curl git htop 
+
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+chsh -s $(which zsh)
+
+# Install pip
+wget https://bootstrap.pypa.io/get-pip.py
+python get-pip.py
+
+# Configure Tmux
+
+
+# Configure ZSH
+
+
+# Configure vim
+
+
+# Configure SSH 
