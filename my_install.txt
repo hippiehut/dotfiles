@@ -3,7 +3,7 @@ passwd <new_user>
 sudo adduser <new_user> sudo
 
 
-sudo apt-get install openssh-client vim tmux zsh curl git htop 
+sudo apt-get install openssh-client vim tmux zsh curl git htop ssh
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
